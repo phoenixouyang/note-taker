@@ -1,3 +1,4 @@
+// require dependencies
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
@@ -30,13 +31,14 @@ router.post('/notes', (req, res) => {
 router.delete('/notes/:id', (req, res) => {
     let id = req.params.id;
 
+    // loops through ID of all notes, and removes the note if ID matches
     for(let i = 0; i < notes.length; i++) {
         if(notes[i].id === id) {
             notes.splice(i, 1);
         }
     }
     fs.writeFileSync('./db/db.json', JSON.stringify(notes), (err, res) => {
-        if(err) throw err;
+        if(err) console.error(err);
     });
 
     res.json(notes);
