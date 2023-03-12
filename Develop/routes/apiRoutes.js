@@ -26,4 +26,20 @@ router.post('/notes', (req, res) => {
     res.json(newNote);
 });
 
+// DELETE route for deleting a note
+router.delete('/notes/:id', (req, res) => {
+    let id = req.params.id;
+
+    for(let i = 0; i < notes.length; i++) {
+        if(notes[i].id === id) {
+            notes.splice(i, 1);
+        }
+    }
+    fs.writeFileSync('./db/db.json', JSON.stringify(notes), (err, res) => {
+        if(err) throw err;
+    });
+
+    res.json(notes);
+});
+
 module.exports = router;
