@@ -21,6 +21,6 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 // listen to incoming connections
-app.listen(PORT, () =>
+app.listen(PORT, () => {
   console.log(`App listening at http://localhost:${PORT}. Happy note taking!`)
-);
+});

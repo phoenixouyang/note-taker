@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"id":"1ea7972c-30ad-45db-b244-de7861d49f12","title":"hjghjghj","text":"jkhj"},{"id":"48d4f3cf-d5c9-43bc-89ec-949e7aab2a63","title":"hello","text":"uygguyhhhiuhuihiuhui"},{"id":"139e3464-9cc9-4b00-80ea-8b43c7108950","title":"sdfgsdf","text":"fgf"},{"id":"206afbea-a1b1-4160-a75a-8634b6a9a649","title":"this is a new note!","text":"Hello note people!"},{"id":"a7c31e55-1a74-440a-868a-309d295d0bd8","title":"asdf","text":"asd"},{"id":"4385d136-c13d-4886-b963-e5fbdeab68bf","title":"test note!","text":"this is a test note!"},{"id":"a2c2f190-3aaf-4d98-b029-a4bb6f4e5350","title":"test note!","text":"does the app work without notes.js?"}]
