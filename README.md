@@ -11,6 +11,8 @@ This application uses Node.js and Express.js to create a note taker that allows 
 
 
 ## Usage
+Access the deployed application [here](https://immense-hollows-86783.herokuapp.com/)
+
 The application allows you to enter a title and text for your note. Once complete, hit the save button in the top right. Your saved notes will appear on the left panel, and can be accessed after new notes are added.
 
 Click the trash can icon next to a note to delete it.
